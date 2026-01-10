@@ -1,0 +1,97 @@
+@import "/wp-content/themes/vigilance/style.css";
+body {
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  color: #000;
+}
+.post-header h1 a:link,
+.post-header h1 a:visited,
+.post-header h2 a:link,
+.post-header h2 a:visited {
+  font-family: Impact, Impact, Charcoal, sans-serif;
+}
+h1#title a:link,
+h1#title a:visited,
+div#title a:link,
+div#title a:visited {
+  font-family: Impact, Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+}
+dl {
+  display: block;
+  margins: 30px;
+  padding: 10px;
+  margin-bottom: 30px;
+  width: auto;
+  border: 1px dashed #000;
+  background: #c9c9c9;
+  font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman,
+    serif;
+  list-style-type: decimal;
+}
+dt {
+  font-weight: 700;
+}
+dd {
+  padding-left: 10px;
+  list-style-type: decimal;
+}
+dl {
+  counter-reset: term defintion;
+}
+dt {
+  counter-reset: definition;
+}
+dd:before {
+  counter-increment: definition;
+  content: counter(definition) ". ";
+}
+dd ol li {
+  list-style-type: lower-alpha !important;
+}
+.comments a {
+  background: url(/wp-content/themes/vigilance/images/comments-bubble.gif)
+    no-repeat scroll 450px 4px transparent;
+}
+.comments a:hover {
+  background-position: 450px -24px;
+}
+h1#title {
+  line-height: 1em;
+  font-size: 1em;
+}
+div#title {
+  line-height: 1em;
+  font-size: 1em;
+  float: left;
+}
+h1#title {
+  float: left;
+}
+#nav {
+  padding-top: 69px;
+}
+ul a {
+  display: inline;
+}
+div.entry img {
+  padding: 7px;
+}
+div.entry p {
+  line-height: 1.3em;
+  padding-bottom: 3px;
+}
+h6 {
+  font-size: 6em;
+  line-height: 1em;
+}
+li#twitter-4.widget a {
+  display: inline;
+  padding: 0;
+  background: 0 0;
+}
+.sociable img {
+  padding: 0 !important;
+}
+span.asterisk {
+  display: none;
+}

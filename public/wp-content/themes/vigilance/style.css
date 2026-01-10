@@ -1,0 +1,12 @@
+@import "/wp-content/themes/vigilance/stylesheets/master.css";
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
