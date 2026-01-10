@@ -1,11 +1,11 @@
 {
-  auto_https off
-  admin off
+	auto_https off
+	admin off
 }
 
 :8000 {
-  file_server {
-    root /srv
-    index index.html
-  }
+	file_server {
+		root /srv
+		index index.html
+	}
 }
