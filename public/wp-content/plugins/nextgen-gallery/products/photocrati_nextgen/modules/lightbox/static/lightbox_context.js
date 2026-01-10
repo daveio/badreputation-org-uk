@@ -18,7 +18,7 @@ function nextgen_lightbox_filter_selector($, selector) {
               ext2 == "tiff" ||
               ext2 == "jpeg"
             );
-          })
+          }),
       );
     } else if (context == "nextgen_and_wp_images") {
       selector = selector.add($('a > img[class*="wp-image-"]').parent());

@@ -85,7 +85,7 @@
               }
             }
           });
-        }
+        },
       );
     };
     var displayed_gallery = this.get_displayed_gallery_obj();

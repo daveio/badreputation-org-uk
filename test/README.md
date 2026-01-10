@@ -5,7 +5,9 @@ This directory contains comprehensive unit tests for the badreputation-org-uk Cl
 ## Test Files
 
 ### project-config.test.ts
+
 Tests for `package.json` configuration:
+
 - Package name and version verification
 - Script definitions (deploy, dev, start)
 - Wrangler dependency version validation
@@ -14,7 +16,9 @@ Tests for `package.json` configuration:
 **Test Count: 8**
 
 ### wrangler-config.test.ts
+
 Tests for `wrangler.jsonc` configuration:
+
 - Project name in Wrangler config
 - Compatibility date setting
 - Assets directory path
@@ -24,7 +28,9 @@ Tests for `wrangler.jsonc` configuration:
 **Test Count: 6**
 
 ### static-assets.test.ts
+
 Tests for static asset directory structure:
+
 - Public directory existence and validity
 - index.html presence and content validation
 - Expected subdirectories (page, tag, category)
@@ -33,7 +39,9 @@ Tests for static asset directory structure:
 **Test Count: 8**
 
 ### gitignore.test.ts
+
 Tests for `.gitignore` file entries:
+
 - Node.js related files (node_modules, npm-debug.log, yarn logs)
 - Environment files (.env, .dev.vars)
 - Wrangler specific files (.wrangler)
@@ -46,21 +54,25 @@ Tests for `.gitignore` file entries:
 ## Running Tests
 
 ### Run all tests
+
 ```bash
 bun test
 ```
 
 ### Watch mode (re-run on file changes)
+
 ```bash
 bun test --watch
 ```
 
 ### Generate coverage report
+
 ```bash
 bun test --coverage
 ```
 
 ### Run specific test file
+
 ```bash
 bun test test/project-config.test.ts
 ```
@@ -68,6 +80,7 @@ bun test test/project-config.test.ts
 ## Test Framework
 
 Tests are written using Bun's native test runner, which provides:
+
 - No additional dependencies required
 - Built-in expect() assertions
 - describe/it test organization

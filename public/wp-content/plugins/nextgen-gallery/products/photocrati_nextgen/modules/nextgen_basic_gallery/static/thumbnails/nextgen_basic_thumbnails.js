@@ -19,7 +19,7 @@ jQuery(function ($) {
               .parents(".ngg-gallery-thumbnail-box")
               .attr("id")
               .match(/\d+/)
-              .join("")
+              .join(""),
           );
       } catch (ex) {
         success = false;

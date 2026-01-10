@@ -1,6 +1,9 @@
 @import "/wp-content/themes/vigilance/style.css";
 body {
-  font-family: Trebuchet MS, Helvetica, sans-serif;
+  font-family:
+    Trebuchet MS,
+    Helvetica,
+    sans-serif;
   color: #000;
 }
 .post-header h1 a:link,
@@ -24,7 +27,12 @@ dl {
   width: auto;
   border: 1px dashed #000;
   background: #c9c9c9;
-  font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman,
+  font-family:
+    Georgia,
+    Palatino,
+    Palatino Linotype,
+    Times,
+    Times New Roman,
     serif;
   list-style-type: decimal;
 }

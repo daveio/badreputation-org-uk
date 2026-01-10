@@ -50,7 +50,11 @@ address {
 }
 body {
   font-size: 62.5%;
-  font-family: Georgia, times new roman, Times, Serif;
+  font-family:
+    Georgia,
+    times new roman,
+    Times,
+    Serif;
   line-height: 2.2em;
   color: #333;
   background-color: #fff;
@@ -136,7 +140,12 @@ div#title a:hover {
 #nav {
   float: right;
   font-size: 1.5em;
-  font-family: trebuchet ms, lucida grande, lucida sans, Verdana, Arial,
+  font-family:
+    trebuchet ms,
+    lucida grande,
+    lucida sans,
+    Verdana,
+    Arial,
     sans-serif;
 }
 #nav ul {
@@ -218,7 +227,12 @@ div#title a:hover {
   color: #757575;
   font-size: 1.6em;
   font-weight: 400;
-  font-family: trebuchet ms, lucida grande, lucida sans, Verdana, Arial,
+  font-family:
+    trebuchet ms,
+    lucida grande,
+    lucida sans,
+    Verdana,
+    Arial,
     sans-serif;
   text-transform: uppercase;
 }
@@ -301,7 +315,10 @@ pre {
 }
 code {
   padding: 2px 3px;
-  font: 1.1em Consolas, Courier New, sans-serif;
+  font:
+    1.1em Consolas,
+    Courier New,
+    sans-serif;
   background-color: #f3f3f3;
   color: #000;
 }
@@ -366,7 +383,12 @@ blockquote {
   margin: 0;
   padding: 0 0 0 40px;
   font-size: 1.2em;
-  font-family: trebuchet ms, lucida grande, lucida sans, Verdana, Arial,
+  font-family:
+    trebuchet ms,
+    lucida grande,
+    lucida sans,
+    Verdana,
+    Arial,
     sans-serif;
   line-height: 1.3em;
   background: url(/wp-content/themes/vigilance/images/float-quote.gif) no-repeat
@@ -377,7 +399,12 @@ blockquote {
   margin: 0 0 10px 10px;
   width: 200px;
   padding: 10px;
-  font-family: trebuchet ms, lucida grande, lucida sans, Verdana, Arial,
+  font-family:
+    trebuchet ms,
+    lucida grande,
+    lucida sans,
+    Verdana,
+    Arial,
     sans-serif;
   border-top: 8px solid #000;
   background: #772124;
@@ -500,7 +527,12 @@ h2.widgettitle {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1.05pt;
-  font-family: trebuchet ms, lucida grande, lucida sans, Verdana, Arial,
+  font-family:
+    trebuchet ms,
+    lucida grande,
+    lucida sans,
+    Verdana,
+    Arial,
     sans-serif;
   border-bottom: 1px solid #eee;
 }
@@ -646,7 +678,12 @@ div.c-date {
   font-size: 0.9em;
   line-height: 0;
   padding: 10px 0 5px;
-  font-family: trebuchet ms, lucida grande, lucida sans, Verdana, Arial,
+  font-family:
+    trebuchet ms,
+    lucida grande,
+    lucida sans,
+    Verdana,
+    Arial,
     sans-serif;
   font-weight: 700;
 }
@@ -655,7 +692,12 @@ div.c-date {
   margin-left: 5px;
   color: #ccc;
   font-size: 0.7em;
-  font-family: trebuchet ms, lucida grande, lucida sans, Verdana, Arial,
+  font-family:
+    trebuchet ms,
+    lucida grande,
+    lucida sans,
+    Verdana,
+    Arial,
     sans-serif;
   text-transform: uppercase;
 }
@@ -670,7 +712,12 @@ div.reply a:link,
 div.reply a:visited {
   color: #aaa;
   font-size: 0.9em;
-  font-family: trebuchet ms, lucida grande, lucida sans, Verdana, Arial,
+  font-family:
+    trebuchet ms,
+    lucida grande,
+    lucida sans,
+    Verdana,
+    Arial,
     sans-serif;
   text-transform: uppercase;
   border-bottom: 1px dotted;

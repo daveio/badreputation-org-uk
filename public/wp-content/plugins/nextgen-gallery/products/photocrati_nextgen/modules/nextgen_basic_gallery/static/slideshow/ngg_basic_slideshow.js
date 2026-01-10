@@ -7,7 +7,7 @@
         $(
           '.ngg-galleryoverview.ngg-slideshow[data-gallery-id="' +
             gallery.ID +
-            '"]'
+            '"]',
         ).slick({
           autoplay: Number(settings.autoplay) ? true : false,
           arrows: Number(settings.arrows) ? true : false,
