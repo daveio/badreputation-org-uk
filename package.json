@@ -2,7 +2,7 @@
   "name": "badreputation-org-uk",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "bun@1.3.5",
+  "packageManager": "bun@1.3.7",
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
@@ -12,6 +12,6 @@
     "test:coverage": "bun test --coverage"
   },
   "devDependencies": {
-    "wrangler": "^4.58.0"
+    "wrangler": "^4.61.0"
   }
 }
