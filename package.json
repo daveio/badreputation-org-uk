@@ -5,6 +5,8 @@
     "url": "https://github.com/daveio"
   },
   "devDependencies": {
+    "@trunkio/launcher": "^1.3.4",
+    "npm-run-all2": "^8.0.4",
     "wrangler": "^4.65.0"
   },
   "name": "badreputation-org-uk",
@@ -13,10 +15,14 @@
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
+    "format": "bun run trunk fmt -a",
+    "format:types": "bun run trunk fmt worker-configuration.d.ts",
+    "postinstall": "bun run-s types format:types",
     "start": "wrangler dev",
     "test": "bun test",
     "test:coverage": "bun test --coverage",
-    "test:watch": "bun test --watch"
+    "test:watch": "bun test --watch",
+    "types": "bun run wrangler types"
   },
   "version": "0.0.0"
 }
