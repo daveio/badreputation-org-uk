@@ -18,14 +18,14 @@ runtimes:
 lint:
   enabled:
     - actionlint@1.7.8
-    - checkov@3.2.501
+    - checkov@3.2.508
     - git-diff-check
     - hadolint@2.14.0
-    - markdownlint@0.47.0
+    - markdownlint@0.48.0
     - osv-scanner@2.3.1
     - oxipng@10.0.0
     - prettier@3.8.1
-    - svgo@4.0.0
+    - svgo@4.0.1
     - taplo@0.10.0
     - trufflehog@3.92.4
     - yamllint@1.38.0
